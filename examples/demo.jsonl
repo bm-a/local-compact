@@ -1,0 +1,4 @@
+{"id":"1","role":"assistant","text":"sent message_id 123 invoice paid, do not lose","kind":"result"}
+{"id":"2","role":"assistant","text":"ok","kind":"result"}
+{"id":"3","role":"assistant","text":"error: webhook timeout, retry failed","kind":"error"}
+{"id":"4","role":"assistant","text":"listed 12 files in src/","kind":"result"}

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "local-compact"
+version = "0.1.0"
+description = "Free local compaction for Claude Code + OpenCode: no API key, honest tokens, receipt-guard, preview before you drop."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+dependencies = []
+[project.optional-dependencies]
+dev = ["pytest"]
+[project.scripts]
+local-compact = "local_compact.cli:main"
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["local_compact*"]
