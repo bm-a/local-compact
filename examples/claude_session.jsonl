@@ -1,0 +1,4 @@
+{"type":"human","message":{"role":"user","content":[{"type":"text","text":"please fix the webhook timeout"}]}}
+{"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"checking logs"},{"type":"tool_use","id":"tu1","name":"Bash","input":{"cmd":"tail logs"}}]}}
+{"type":"user","message":{"role":"user","content":[{"type":"tool_result","tool_use_id":"tu1","content":[{"type":"text","text":"ERROR timeout after 30s, sent message_id abc invoice paid"}]}]}}
+{"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"ok"}]}}
